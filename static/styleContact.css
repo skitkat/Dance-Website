@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container{
+    /* justify-content: center; */
+    min-height: 77vh;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    margin-top: 34px;
+}
+.container h1 {
+    text-align: center;
+    margin: 12px 0;
+    font-family: Comforter ;
+    font-size: 34px;
+    margin-top: 12px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+}
+.myInput{
+    font-size: 16px;
+    width: 40%;
+    padding: 9px ;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 12px;
+    outline: none;
+}
+
+.btn{
+    padding: 12px 16px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
